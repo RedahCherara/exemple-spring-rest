@@ -53,14 +53,14 @@
 	
 	<distributionManagement>
 		<repository>
-			<id>releases</id>
+			<id>rcherara-nexus-releases</id>
 			<name>Releases</name>
-			<url>http://127.0.0.1:8081/repository/Spring-Boot-Rest-API-Example-Snapshot</url>
+			<url>http://127.0.0.1:8081/repository/Spring-Boot-Rest-API-Example-Release</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>Internal Snapshots</name>
-			<url>http://127.0.0.1:8081/repository/Spring-Boot-Rest-API-Example-Release</url>
+			<url>http://127.0.0.1:8081/repository/Spring-Boot-Rest-API-Example-Snapshot</url>
 		</snapshotRepository>
 	</distributionManagement>
 
